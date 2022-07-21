@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Online Bus Booking & Reservation System</title>
+    <style>
+	body{
+	background-color: #b2d9d0;
+	}
+	
+
+	#button1{
+	padding:10px;
+	background-color: #ad8e8e;
+	font-size:20px;
+	border-radius:10px;
+	font-weight:bolder;
+	transition:background-color 2s ease 0s;
+	
+	}
+	
+	
+	#button2{
+	padding:10px;
+	background-color: #ad8e8e;
+	font-size:20px;
+	border-radius:10px;
+	font-weight:bolder;
+	transition:background-color 2s ease 0s;
+	
+	}
+	
+	#button1:hover{
+	background-color:blue
+	}
+	
+	#button2:hover{
+	background-color:blue
+	}
+	
+	</style>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form
+    <p><b>User Name:</b></p>
+    <input type="text" name="" placeholder="Enter Name">
+    <p><b>User Email:</b></p>
+
+    <input type="email" name="" placeholder="Enter Email" required>
+    <p><b>User Phone Number:</b></p>
+    <input type="number" name="" placeholder="Enter Number">
+    <p><b>Message</b></p>
+    </form>
+    <textarea name="name" rows="8" cols="80"></textarea>
+
+    <table>
+      <tr>
+        <td >
+
+        <input type="submit" name="" value="submit" id="button1">
+         <input type="reset" name="" value="reset" id="button2">
+        </td>
+      </tr>
+
+    </table>
+
+
+
+  </body>
+</html>
